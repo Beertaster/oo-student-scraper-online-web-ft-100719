@@ -4,7 +4,7 @@ class Student
 
   @@all = []
 
-  def initialize(student_hash)a
+  def initialize(student_hash)
     student_hash {|i, j| self.send(("#{i}"),j)}
   end
 
